@@ -71,7 +71,7 @@ This script automates financial portfolio management by connecting to real-time 
 1. **Clone the repository:**
     ```bash
     git clone [https://github.com/your-username/your-repository.git](https://github.com/your-username/your-repository.git)
-    cd your-repository```
+    cd your-repository
 
 2. **Create and initialize the virtual environment:**
     ```bash
