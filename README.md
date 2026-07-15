@@ -29,31 +29,31 @@ Este script automatiza la gestión de tu portafolio financiero conectándose a f
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-   cd tu-repositorio```
+   cd tu-repositorio
 
 2. **Crear e inicializar el entorno virtual:**
     ```bash
     python -bin/venv .venv
     source .venv/bin/activate  # En Mac/Linux
-    # .venv\Scripts\activate  # En Windows```
+    # .venv\Scripts\activate  # En Windows
 
 3. **Instalar dependencias:**
     ```bash
-    pip install -r requirements.txt```
+    pip install -r requirements.txt
 
 4. **Configurar variables de entorno:**
     Crea un archivo .env en la raíz del proyecto basándote en .env.example:
     ```plaintext
-    CMC_API_KEY=tu_api_key_de_coinmarketcap```
+    CMC_API_KEY=tu_api_key_de_coinmarketcap
 
 5. **Inicializar la base de datos de prueba:**
     Para generar la estructura de tablas y cargar datos de demostración (incluyendo tickers como ALSEA, FMTY14, AAPL, etc.):
     ```bash
-    python crear_base_prueba.py```
+    python crear_base_prueba.py
 
 6. **Ejecutar la aplicación:**
     ```bash
-    python inversiones.py````
+    python inversiones.py
 
 <a name="english"></a>
 ## English
@@ -77,25 +77,25 @@ This script automates financial portfolio management by connecting to real-time 
     ```bash
     python -m venv .venv
     source .venv/bin/activate  # On Mac/Linux
-    # .venv\Scripts\activate  # On Windows```
+    # .venv\Scripts\activate  # On Windows
 
 3. **Install dependencies:**
     ```bash
-    pip install -r requirements.txt```
+    pip install -r requirements.txt
 
 4. **Configure environment variables:**
     Create a .env file in the root directory based on .env.example:
     ```plaintext
-    CMC_API_KEY=your_coinmarketcap_api_key_here```
+    CMC_API_KEY=your_coinmarketcap_api_key_here
 
 5. **Initialize the test database:**
     To build the table schema and seed mock data (including tickers like ALSEA, FMTY14, AAPL, etc.):
     ```bash
-    python crear_base_prueba.py```
+    python crear_base_prueba.py
 
 6. **Run the application:**
     ```bash
-    python inversiones.py```
+    python inversiones.py
 
 ## Tech Stack / Tecnologías Utilizadas
 * Language: Python
